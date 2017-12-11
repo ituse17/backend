@@ -6,12 +6,13 @@
     "type": "project",
     "require": {
         "php": ">=7.0.0",
+        "barryvdh/laravel-cors": "^0.10.0",
         "fideloper/proxy": "~3.3",
-        "laravel/framework": "5.5.*",
-        "laravel/tinker": "~1.0",
         "infyomlabs/adminlte-templates": "5.4.x-dev",
         "infyomlabs/laravel-generator": "5.4.x-dev",
-        "infyomlabs/swagger-generator": "dev-master"
+        "infyomlabs/swagger-generator": "dev-master",
+        "laravel/framework": "5.5.*",
+        "laravel/tinker": "~1.0"
     },
     "require-dev": {
         "filp/whoops": "~2.0",
